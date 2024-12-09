@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataVoyager.Cli", "DataVoyager.Cli\DataVoyager.Cli.csproj", "{476108E3-4DDB-42D3-B71B-B19E0790CA6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataVoyager.Core", "DataVoyager.Core\DataVoyager.Core.csproj", "{5CC842E8-9668-4037-A7DD-AD410CD96BA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{476108E3-4DDB-42D3-B71B-B19E0790CA6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{476108E3-4DDB-42D3-B71B-B19E0790CA6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{476108E3-4DDB-42D3-B71B-B19E0790CA6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{476108E3-4DDB-42D3-B71B-B19E0790CA6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC842E8-9668-4037-A7DD-AD410CD96BA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC842E8-9668-4037-A7DD-AD410CD96BA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC842E8-9668-4037-A7DD-AD410CD96BA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC842E8-9668-4037-A7DD-AD410CD96BA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
