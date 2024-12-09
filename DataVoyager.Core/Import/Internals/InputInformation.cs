@@ -12,6 +12,7 @@ internal sealed class InputInformation
     internal string Path { get; private set; }
     internal string FullName { get; private set; }
     internal string TempPath { get; private set; }
+    internal string SchemaFile => System.IO.Path.Combine(TempPath, "schema.sql");
     internal static InputInformation Create(string fullname)
     {
         var path = System.IO.Path.GetDirectoryName(fullname)!;
