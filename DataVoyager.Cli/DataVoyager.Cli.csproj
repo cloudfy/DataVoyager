@@ -8,6 +8,10 @@
     <AssemblyName>dvcli</AssemblyName>
     <RootNamespace>DataVoyager</RootNamespace>
     <ApplicationIcon>icon.ico</ApplicationIcon>
+
+	<PackageId>DataVoyager.Cli</PackageId>
+	<PackAsTool>true</PackAsTool>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
