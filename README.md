@@ -10,7 +10,7 @@ Exports a database to a DVO file.
 dvicli export \
   --output "c:\temp\export.dvo" \
   --connection "Server=(azureserver).database.windows.net;Authentication=Active Directory Interactive;Encrypt=True;Database=(database)" \
-  --ignore "usagedata"
+  --ignore "MyTable"
 ```
 
 **Options**
